@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.edgeburnmedia.bonemeal_small_flowers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bonemeal_small_flowers.refmap.json",
+  "mixins": [
+    "FlowerBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
